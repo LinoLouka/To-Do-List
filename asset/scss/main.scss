@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: sans-serif;
   color: $secondary-color;
   padding: 10px;
   display: flex;
@@ -97,6 +97,10 @@ li button {
 
 li button:hover {
   background-color: darken($secondary-color, 10%);
+}
+
+ul .completed {
+  text-decoration: line-through;
 }
 
 #removeBtn {
