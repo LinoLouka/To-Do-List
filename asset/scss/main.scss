@@ -1,5 +1,5 @@
-@import url(./vendors/_reset.scss);
-@import url(./utils/_variables.scss);
+@import "./vendors/reset";
+@import "./utils/variables";
 
 html {
   font-size: 14px;
