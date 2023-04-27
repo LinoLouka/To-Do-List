@@ -8,7 +8,7 @@ The goal of this project will be to summarize our current knowledge of :
 - Javascript
 - The DOM
 - Event listeners
-- 
+
 ## 🛠 Skills
 <p align="center">
   <a href="https://skillicons.dev">
