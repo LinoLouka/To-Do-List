@@ -18,9 +18,11 @@ export function toggleTaskCompleted(index) {
 
 // fonction pour supprimer les tâches
 export function clearCompletedTasks() {
-  tasks = tasks.filter((task) => !task.completed); //probleme
-
+  let localtasks = tasks.filter((task) => !task.completed);
+  console.log(tasks);
+  console.log(localtasks);
   renderTasks();
+  localStorage.setItem("tasks", JSON.stringify(localtasks));
 }
 
 //Suppression des taches completed
