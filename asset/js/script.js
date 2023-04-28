@@ -5,6 +5,7 @@ import { addTask } from "./add.js";
 import { clearCompletedTasks, removeCompletedTasks } from "./delete.js";
 // Fonctions
 renderTasks();
+//Explication d'Arnaud
 console.log(tasks);
 for (let task of tasks) {
   console.log(task);
